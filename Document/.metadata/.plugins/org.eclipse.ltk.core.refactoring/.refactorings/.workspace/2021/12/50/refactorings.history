@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MC_DC_BTNxxx_FW&apos; to &apos;DoAn_CDT&apos;" description="Rename resource &apos;MC_DC_BTNxxx_FW&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/MC_DC_BTNxxx_FW" name="DoAn_CDT" stamp="1639062907300" updateReferences="true"/>
+</session>

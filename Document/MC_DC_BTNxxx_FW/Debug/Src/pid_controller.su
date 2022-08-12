@@ -1,0 +1,13 @@
+pid_controller.c:15:6:PIDInit	24	static
+pid_controller.c:42:1:PIDCompute	32	static
+pid_controller.c:76:1:PIDModeSet	16	static
+pid_controller.c:93:1:PIDOutputLimitsSet	24	static
+pid_controller.c:114:1:PIDTuningsSet	24	static
+pid_controller.c:142:1:PIDTuningKpSet	16	static
+pid_controller.c:148:1:PIDTuningKiSet	16	static
+pid_controller.c:154:1:PIDTuningKdSet	16	static
+pid_controller.c:160:1:PIDControllerDirectionSet	16	static
+pid_controller.c:175:1:PIDSampleTimeSet	24	static
+pid_controller.c:192:1:PIDSetpointSet	16	static
+pid_controller.c:195:1:PIDInputSet	16	static
+pid_controller.c:198:1:PIDOutputGet	16	static

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Admin\Downloads\oled"/>
+			<item value="C:\Users\Admin\Downloads\oled\oled"/>
+			<item value="C:\Users\Admin\Downloads\STM32F405-master"/>
+			<item value="F:\Windown_9_2021\CircleTech\STM32 MOTOR CONTROLER CARD_release_update_4_9_2021"/>
+			<item value="C:\Users\Admin\Downloads\Multi_HCSR04"/>
+			<item value="C:\Users\Admin\Downloads\MultiUS_Servo_SameTimer"/>
+			<item value="C:\Users\Admin\Desktop\F103C8_MPU6050-master"/>
+			<item value="C:\Users\Admin\Desktop\MPU6050-master\examples\stm32f103c8-mpu6050-basic"/>
+			<item value="C:\Users\Admin\Desktop\MPU6050-master\examples\stm32f103c8-mpu6050-interrupt"/>
+			<item value="C:\Users\Admin\Desktop\ADC_DMA"/>
+			<item value="C:\Users\Admin\Downloads\MPU6050-master\examples\STM32F401CCU6_MPU6050"/>
+			<item value="C:\Users\Admin\Downloads\digital-pid-classroom-demo-master"/>
+			<item value="C:\Users\Admin\Documents\HoangDanh\MC_DC_BTNxxx_FW_POS"/>
+			<item value="C:\Users\Admin\Documents\HoangDanh\Doan\Mobile_Robot"/>
+			<item value="C:\Users\Admin\Documents\HoangDanh\Doan\MC_DC_BTNxxx_FW"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,19 @@
+21:33:03 **** Build of configuration Debug for project stm32f103c8-mpu6050-basic ****
+make -j4 all 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"D:/dev/Dropbox/PROJECTS/LIBRARY/MPU6050/lib/MPU6050/Include" -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"D:/dev/Dropbox/PROJECTS/LIBRARY/MPU6050/lib/MPU6050/Include" -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"D:/dev/Dropbox/PROJECTS/LIBRARY/MPU6050/lib/MPU6050/Include" -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"D:/dev/Dropbox/PROJECTS/LIBRARY/MPU6050/lib/MPU6050/Include" -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+cc1.exe: error: D:/dev/Dropbox/PROJECTS/LIBRARY/MPU6050/lib/MPU6050/Include: Resource temporarily unavailable
+cc1.exe: error: D:/dev/Dropbox/PROJECTS/LIBRARY/MPU6050/lib/MPU6050/Include: Resource temporarily unavailable
+cc1.exe: error: D:/dev/Dropbox/PROJECTS/LIBRARY/MPU6050/lib/MPU6050/Include: Resource temporarily unavailable
+cc1.exe: error: D:/dev/Dropbox/PROJECTS/LIBRARY/MPU6050/lib/MPU6050/Include: Resource temporarily unavailable
+make: *** [Drivers/STM32F1xx_HAL_Driver/Src/subdir.mk:58: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Drivers/STM32F1xx_HAL_Driver/Src/subdir.mk:58: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o] Error 1
+make: *** [Drivers/STM32F1xx_HAL_Driver/Src/subdir.mk:58: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o] Error 1
+make: *** [Drivers/STM32F1xx_HAL_Driver/Src/subdir.mk:58: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+
+21:33:04 Build Failed. 5 errors, 0 warnings. (took 987ms)
+

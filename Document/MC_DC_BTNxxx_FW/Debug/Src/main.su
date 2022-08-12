@@ -1,0 +1,14 @@
+main.c:132:5:main	48	static
+main.c:221:6:SystemClock_Config	88	static
+main.c:268:13:MX_ADC1_Init	48	static
+main.c:340:13:MX_TIM1_Init	96	static
+main.c:419:13:MX_TIM2_Init	56	static
+main.c:466:13:MX_DMA_Init	16	static
+main.c:484:13:MX_GPIO_Init	32	static
+main.c:505:6:pwmSendOut	32	static
+main.c:520:6:pwmOff	4	static
+main.c:526:9:setHomePos	24	static
+main.c:543:13:swap	24	static
+main.c:548:7:reverse	24	static
+stdlib.h:227:8:itoa	40	static
+main.c:600:6:Error_Handler	4	static

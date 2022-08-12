@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"mobile_robot\startup_stm32f103xb.o"
+"mobile_robot\main.o"
+"mobile_robot\stm32f1xx_it.o"
+"mobile_robot\stm32f1xx_hal_msp.o"
+"mobile_robot\pid_controller.o"
+"mobile_robot\stm32f1xx_hal_gpio_ex.o"
+"mobile_robot\stm32f1xx_hal_tim.o"
+"mobile_robot\stm32f1xx_hal_tim_ex.o"
+"mobile_robot\stm32f1xx_hal.o"
+"mobile_robot\stm32f1xx_hal_rcc.o"
+"mobile_robot\stm32f1xx_hal_rcc_ex.o"
+"mobile_robot\stm32f1xx_hal_gpio.o"
+"mobile_robot\stm32f1xx_hal_dma.o"
+"mobile_robot\stm32f1xx_hal_cortex.o"
+"mobile_robot\stm32f1xx_hal_pwr.o"
+"mobile_robot\stm32f1xx_hal_flash.o"
+"mobile_robot\stm32f1xx_hal_flash_ex.o"
+"mobile_robot\stm32f1xx_hal_exti.o"
+"mobile_robot\stm32f1xx_hal_uart.o"
+"mobile_robot\system_stm32f1xx.o"
+"mobile_robot\cjson.o"
+--library_type=microlib --strict --scatter "Mobile_Robot\Mobile_Robot.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Mobile_Robot.map" -o Mobile_Robot\Mobile_Robot.axf

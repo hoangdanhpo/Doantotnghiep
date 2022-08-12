@@ -1,0 +1,22 @@
+15:21:00 **** Build of configuration Debug for project Debugger_test ****
+make -j4 all 
+arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c8tx.d" -MT"Startup/startup_stm32f103c8tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c8tx.o" "../Startup/startup_stm32f103c8tx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "Debugger_test.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Admin\Documents\HoangDanh\Doan\Debugger_test\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Debugger_test.map" -Wl,--gc-sections -static -specs=rdimon.specs -lc -lrdimon --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Debugger_test.elf
+ 
+arm-none-eabi-size   Debugger_test.elf 
+arm-none-eabi-objdump -h -S  Debugger_test.elf  > "Debugger_test.list"
+arm-none-eabi-objcopy  -O binary  Debugger_test.elf  "Debugger_test.bin"
+   text	   data	    bss	    dec	    hex	filename
+   4652	    116	   1764	   6532	   1984	Debugger_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: Debugger_test.bin
+Finished building: Debugger_test.list
+ 
+ 
+
+15:21:01 Build Finished. 0 errors, 0 warnings. (took 1s.343ms)
+

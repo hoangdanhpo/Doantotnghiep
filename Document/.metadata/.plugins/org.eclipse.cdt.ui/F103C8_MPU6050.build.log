@@ -1,0 +1,10 @@
+22:16:47 **** Incremental Build of configuration Debug for project F103C8_MPU6050 ****
+make -j4 all 
+arm-none-eabi-size   F103C8_MPU6050.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9884	     20	   1756	  11660	   2d8c	F103C8_MPU6050.elf
+Finished building: default.size.stdout
+ 
+
+22:16:48 Build Finished. 0 errors, 0 warnings. (took 1s.547ms)
+
